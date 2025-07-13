@@ -1,0 +1,5 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  const sequelize = new Sequelize(process.env.DATABASE_URL, { /* options */ });
+}
