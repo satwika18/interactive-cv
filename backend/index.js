@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Example route
 app.get('/', (req, res) => {
-  res.send('Hello from backend! 🎉');
+  res.send('Putu satwika Dewi Adnyani');
 });
 
 // Example API route
